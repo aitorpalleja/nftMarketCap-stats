@@ -1,11 +1,15 @@
-/*import axios from 'axios';
+import axios from 'axios';
 
-
-export class requestService {
+export class RequestService {
     constructor() { }
 
     get = (url) => {
+
+
+
         return new Promise((resolve, reject) => {
+
+
 
             axios.get(url)
                 .then(response => {
@@ -19,4 +23,3 @@ export class requestService {
         });
     }
 }
-*/

@@ -4,6 +4,7 @@ const router = Express.Router();
 
 import { getCollectionStats} from "../controllers/DataController.js";
 
+
 router.get('/getStats/:nftSymbol', getCollectionStats);
 
 
