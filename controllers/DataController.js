@@ -21,7 +21,7 @@ export const getCollectionStats = (req, res) => {
     axios.get("https://api-mainnet.magiceden.dev/v2/collections/"+ symbol +"/stats")
         .then(function (response) {
             // handle success
-            console.log(response);
+            console.log(response.data);
         })
         .catch(function (error) {
             // handle error
